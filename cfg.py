@@ -1,0 +1,10 @@
+BATCH_SIZE = 16
+EPOCH_NUMBER = 1000
+TRAIN_ROOT = './GOALS/train'
+TRAIN_LABEL = './GOALS/train_labels'
+VAL_ROOT = './GOALS/val'
+VAL_LABEL = './GOALS/val_labels'
+TEST_ROOT = './GOALS/test'
+TEST_LABEL = './GOALS/test'
+class_dict_path = 'GOALS/class_dict.csv'
+crop_size = (512, 512)
